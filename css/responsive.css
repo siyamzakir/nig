@@ -1,0 +1,264 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+/* Tablet Layout: 768px. */
+.slider_box {
+  background-color: #273171;
+  border: 12px solid #add8e6;
+  color: #fff;
+  float: left;
+  max-height: 105%;
+  max-width: 54%;
+  padding: 5px;
+  position: absolute;
+  right: 120px;
+  top: 16px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .hdr_btm .col-sm-3 {
+        float: left;
+        width: 100%;
+    }
+    .hdr_btm .col-sm-9 {
+        float: left;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .logo img {
+        max-width: 150px;
+    }
+    .custommenu .navbar-nav > li > a {
+        font-size: 14px;
+        margin: 5px 0;
+        padding: 5px;
+    }
+    .menu_bttn {
+        font-size: 8px;
+        margin-top: 10px;
+        padding: 5px;
+    }
+    .slider_area .slider_box {
+        background-color: #273171;
+        border: 12px solid #add8e6;
+        color: #fff;
+        float: left;
+        max-height: 80%;
+        max-width: 40%;
+        padding: 0 10px 10px;
+        position: absolute;
+        right: 80px;
+        top: 11px;
+    }
+    .slider_box h2 {
+        font-size: 16px;
+    }
+    .slider_box span {
+        font-size: 24px;
+    }
+    .slider_box p {
+        display: none;
+    }
+    .zip_btn {
+        font-size: 15px;
+        margin-top: 39px;
+        padding: 0 10px;
+    }
+    .zip_cod {
+        float: left;
+        line-height: 19px;
+        max-width: 40%;
+    }
+    .enroll_area ul {
+        margin-right: 0;
+    }
+    .enroll_area ul li {
+        padding: 0 7px;
+    }
+    .coverage_box {
+        margin: 13px 0;
+        padding: 12px;
+    }
+    .container2_lft span {
+        font-size: 40px;
+        line-height: 22px;
+    }
+    .obamacare {
+        font-size: inherit;
+    }
+    .owl-theme .owl-controls .owl-buttons div {
+        margin: 5px 5px 5px 25px !important;
+    }
+    .owl-theme .owl-controls .owl-buttons div {
+        margin: 5px 5px 5px 25px !important;
+    }
+    .owl-theme .owl-controls .owl-buttons div {
+        margin-right: 25px !important;
+    }
+    .contact_list ul li {
+        padding: 0px;
+    }
+    .contact_lgo img {
+        height: auto;
+        margin: 15px 0;
+    }
+    .footer_area1 {
+        padding: 5px 0;
+    }
+    .lgo_txt {
+        line-height: 15px;
+        padding: 0;
+    }
+    .toll_txt {
+        padding: 0;
+    }
+    .hdr_list ul li {
+        border-right: 0 none;
+        display: block;
+        float: none;
+        line-height: 10px;
+        margin: 5px 0;
+        padding: 0;
+    }
+    .cpyryt p {
+        margin: 0;
+        margin-top: 15px;
+    }
+}
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+      .hdr_top ul {
+        margin: 5px 0;
+    }
+	.hdr_top_time {
+        display: none;
+    }
+    .navbar-brand {
+        float: left;
+        font-size: 18px;
+        height: 50px;
+        line-height: 20px;
+        padding: 0;
+    }
+    .logo {
+        max-width: 103px;
+        margin: 0 auto;
+    }
+    .hdr_menu ul {
+        float: left;
+        margin: 0;
+        padding: 0;
+    }
+    .hdr_menu ul li {
+        float: left;
+        padding: 0px 0;
+        max-width: 50%;
+    }
+    .hdr_menu ul li a {
+        font-weight: 300;
+        padding: 5px;
+    }
+    .slider_area .slider_box {
+        display: none;
+    }
+	.navbar-nav > li > a {
+  line-height: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+    .enroll_area ul {
+        float: left;
+margin: 0;
+    }
+	.enroll_area ul li {
+  font-size: 13px;
+  font-weight: normal;
+  padding: 0;
+margin: 0 auto;
+}
+.enroll_area {
+line-height: 15px;
+padding: 5px 0;
+}	
+.container2_lft span {
+  font-size: 34px;
+line-height: 15px;
+}
+.container2_ryt p {
+  font-size: 12px;
+}
+.container_area2_ftr {
+  padding: 5px 0;
+}
+.obamacare img {
+  max-width: 40px;
+}	
+.container_area3 {
+  padding: 1px 0;
+}	
+.health_insrn_txt {
+  padding: 30px 0;
+}	
+.combined_ttle h4 {
+  padding-left: 50px;
+}
+.owl-prev {
+  display: none !important;
+}
+.owl-next {
+  display: none !important;
+}
+.testmonial_para {
+  font-size: 15px;
+  line-height: 15px;
+}	
+.tcb-product-info {
+  padding: 5px;
+}	
+.carousel-control .icon-next, .carousel-control .glyphicon-chevron-right {
+  margin-right: -10px;
+  right: 159%;
+}
+.carousel-control .icon-prev, .carousel-control .glyphicon-chevron-left {
+  left: 50%;
+  margin-left: 6px;
+}	
+.tcb-product-slider {
+  padding: 10px 0;
+}	
+.contact_lgo img {
+  margin: 10px 0;
+  max-width: 100%;
+}
+.lgo_txt {
+  line-height: 15px;
+}
+.contact_list ul li {
+  padding: 0px;
+}	
+.news_hdng {
+  margin: 12px 0;
+}
+.contact_form {
+  margin: 100px 0;
+}	
+.cpyryt {
+  font-size: 13px;
+}
+.hdr_list ul li {
+  border-right: 0 none;
+  padding: 1px 20px;
+}
+.contact_form {
+  margin: 0;
+}	
+.footer_area2 p {
+  font-size: 13px;
+  line-height: 15px;
+}
+	
+}
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {} @media only screen and (min-width: 360px) and (max-width: 479px) {}
